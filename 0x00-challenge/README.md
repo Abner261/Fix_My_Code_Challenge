@@ -49,6 +49,31 @@ root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge#
 - Please take a look at my implementation of printing a square in Javascript: [source code](https://github.com/alx-tools/0x00-Fix_My_Code_Challenge/blob/master/1-print_square.js)
 
 - Something is going wrong…
+```sh
+$ ./1-print_square.js 4
+####
+####
+####
+####
+$ ./1-print_square.js 10
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+$
+```
 
 - `./1-print_square.js 10` should print a square of size 10…
 
