@@ -41,7 +41,7 @@
 
 - `./1-print_square.js 10` should print a square of size 10…
 
-* **Repo:***
+* **Repo:**
 
 	- GitHub repository: `Fix_My_Code_Challenge`
 	- Directory: `0x00-challenge`
