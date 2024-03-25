@@ -139,6 +139,71 @@ root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge#
 - Please find here my implementation of a Double linked list in C: [source code](https://github.com/alx-tools/0x00-Fix_My_Code_Challenge/tree/master/4-delete_dnodeint)
 
 - Something is going wrong…
+```sh
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# mkdir 4-delete_dnodeint/
+mkdir: cannot create directory ‘4-delete_dnodeint/’: File exists
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# ls
+0-fizzbuzz.py  1-print_square.js  2-sort.rb  3-user.py  4-delete_dnodeint  README.md
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# cd 4-delete_dnodeint/
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge/4-delete_dnodeint# gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c free_dlistint.c print_dlistint.c add_dnodeint_end.c delete_dnodeint_at_index.c -o delete_dnodeint
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge/4-delete_dnodeint# ls
+add_dnodeint_end.c  delete_dnodeint  delete_dnodeint_at_index.c  free_dlistint.c  lists.h  main.c  print_dlistint.c
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge/4-delete_dnodeint# ./delete_dnodeint 
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+402
+1024
+-----------------
+1
+2
+3
+4
+402
+1024
+-----------------
+2
+3
+4
+402
+1024
+-----------------
+3
+4
+402
+1024
+-----------------
+4
+402
+1024
+-----------------
+402
+1024
+-----------------
+1024
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge/4-delete_dnodeint#
+```
 
 - It doesn’t look right…
 
