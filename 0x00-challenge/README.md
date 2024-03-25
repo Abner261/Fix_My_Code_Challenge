@@ -116,6 +116,15 @@ root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge#
 - Please find here my implementation of a User class in Python: [source code](https://github.com/alx-tools/0x00-Fix_My_Code_Challenge/blob/master/3-user.py)
 
 - Something is going wrong…
+```sh
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# vi 3-user.py
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# chmod u+x 3-user.py
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# ls
+0-fizzbuzz.py  1-print_square.js  2-sort.rb  3-user.py  README.md
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# ./3-user.py 
+Test User
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge#
+```
 
 - My tests should not print any error…
 
