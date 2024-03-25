@@ -88,6 +88,22 @@ $
 - Please find here my implementation of sorting arguments in Ruby: [source code](https://github.com/alx-tools/0x00-Fix_My_Code_Challenge/blob/master/2-sort.rb)
 
 - Something is going wrong…
+```sh
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# vi 2-sort.rb
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# chmod u+x 2-sort.rb
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# ls
+0-fizzbuzz.py  1-print_square.js  2-sort.rb  README.md
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge# ruby 2-sort.rb 12 41 2 C 9 -9 31 fun -1 32
+-9
+-1
+2
+9
+12
+31
+32
+41
+root@e1714dc5a3c9:~/Fix_My_Code_Challenge/0x00-challenge#
+```
 
 * **Repo:**
 
